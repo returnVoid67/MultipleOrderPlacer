@@ -1,6 +1,7 @@
-node_modules/
-venv/
-.venv/
-__pycache__/
-.vscode/
-*.log
+venv
+.venv
+logs
+*.logs
+node_modules
+.vscode
+__pycache__
