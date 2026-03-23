@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Order Placer</h1>
-    <script src="script.js"></script>
+    <div id="login-container">
+        <h2>Login to Breeze</h2>
+        <input type="number" id="sessionToken" placeholder="Enter Session Token" max="99999999" min="00000000" step="1">
+        <button onclick="connectBreeze()">Connect</button>
+    </div>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
